@@ -13,50 +13,6 @@
     color: var(--color-5);
   }
   
-  h1 {
-    font-family: 'Teko', sans-serif;
-    font-size: clamp(5rem, 3.4783rem + 7.6087vw, 9.375rem);
-    font-weight: 300;
-    letter-spacing: 10px;
-    text-transform: uppercase;
-    text-align: center;
-    text-shadow: 1px 1px 20px rgba(255, 255, 255, 0.397);
-  }
-  
-  h2{
-    font-family: 'Teko', sans-serif;
-    font-weight: 300;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: clamp(3.75rem, 2.8804rem + 4.3478vw, 6.25rem);
-    text-shadow: 1px 1px 20px rgba(255, 255, 255, 0.151);
-  }
-  
-  h3 {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 400;
-    letter-spacing: 10px;
-    text-transform: uppercase;
-    text-align: center;
-    text-shadow: 2px 2px 7px rgba(255, 255, 255, 0.397);
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  span {
-    font-family: 'Teko', sans-serif;
-    font-size: clamp(1.875rem, 1.6576rem + 1.087vw, 2.5rem);
-    text-shadow: 2px 2px 7px rgba(255, 255, 255, 0.397);
-  }
-  
-  hr{
-    width: 80vw;
-    margin: 20px auto;
-    border-style: dashed;
-  }
-  
   /*menu-hamburguer*/
   
   
@@ -188,7 +144,52 @@
     }
   }
   
+  h1 {
+    font-family: 'Teko', sans-serif;
+    font-size: clamp(5rem, 3.4783rem + 7.6087vw, 9.375rem);
+    font-weight: 300;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 1px 1px 20px rgba(255, 255, 255, 0.397);
+  }
   
+  h2{
+    font-family: 'Teko', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: clamp(3.75rem, 2.8804rem + 4.3478vw, 6.25rem);
+    text-shadow: 1px 1px 20px rgba(255, 255, 255, 0.151);
+  }
+  
+  h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 2px 2px 7px rgba(255, 255, 255, 0.397);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  span {
+    font-family: 'Teko', sans-serif;
+    font-size: clamp(1.875rem, 1.6576rem + 1.087vw, 2.5rem);
+    text-shadow: 2px 2px 7px rgba(255, 255, 255, 0.397);
+  }
+  
+  hr{
+    width: 80vw;
+    margin: 20px auto;
+    border-style: dashed;
+  }
+  
+
+
    /*home*/
   
   .text-tittle {
